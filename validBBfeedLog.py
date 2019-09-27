@@ -215,7 +215,7 @@ def click4ScanBBLog():
         logPath = baseDirpath+"*"
 
     #Validate the lastModTime should be a int
-    if type(lastModTime) is not int:
+    if type(delayThreshold) is not int:
         mainTextBox.insertTextInRed("[ERROR] ***** Data Interval should be a number *****\n")
         return -1
 
@@ -253,7 +253,7 @@ def click4LastUpdateLog():
     delayThreshold = inputTbox4.getText()
 
     #Validate the lastModTime should be a int
-    if type(lastModTime) is not int:
+    if type(delayThreshold) is not int:
         mainTextBox.insertTextInRed("[ERROR] ***** Data Interval should be a number *****\n")
         return -1
 
