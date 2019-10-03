@@ -59,6 +59,7 @@ def generateRawList(logPath):
 
 
     #Get the line count for progress estaimation
+    print ("[INFO] Generating the IP list for the location data collection ...")
     num_lines = 0
     tempArray = []
     for fileName in glob.glob(logPath):
